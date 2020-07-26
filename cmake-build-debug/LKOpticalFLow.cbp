@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LKOpticalFLow"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv-4.2.0\;CMake Files\..\..\opencv-4.2.0\cmake-build-debug\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wyl/桌面/LKOpticalFlow/OpticalFlowSingle.h"/>
+					<Add directory="/home/wyl/opencv-4.2.0/cmake-build-debug"/>
+					<Add directory="/home/wyl/opencv-4.2.0/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/core/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/flann/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/imgproc/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/ml/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/photo/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/dnn/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/features2d/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/gapi/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/videoio/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/calib3d/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/highgui/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/objdetect/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/stitching/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/ts/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/video/include"/>
+					<Add directory="/home/wyl/rbx1/devel/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wyl/桌面/LKOpticalFlow/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wyl/桌面/LKOpticalFlow/OpticalFlowSingle.h"/>
+					<Add directory="/home/wyl/opencv-4.2.0/cmake-build-debug"/>
+					<Add directory="/home/wyl/opencv-4.2.0/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/core/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/flann/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/imgproc/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/ml/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/photo/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/dnn/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/features2d/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/gapi/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/imgcodecs/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/videoio/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/calib3d/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/highgui/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/objdetect/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/stitching/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/ts/include"/>
+					<Add directory="/home/wyl/opencv-4.2.0/modules/video/include"/>
+					<Add directory="/home/wyl/rbx1/devel/include"/>
+					<Add directory="/opt/ros/indigo/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wyl/桌面/LKOpticalFlow/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/OpticalFlowSingle.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/OpticalFlowSingle.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/../../opencv-4.2.0/cmake-build-debug/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-4.2.0\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/../../opencv-4.2.0/cmake-build-debug/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-4.2.0\cmake-build-debug\"/>
+		</Unit>
+		<Unit filename="/home/wyl/桌面/LKOpticalFlow/../../opencv-4.2.0/cmake-build-debug/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-4.2.0\cmake-build-debug\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
